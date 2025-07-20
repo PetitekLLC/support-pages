@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>ChatrBox Support Answer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <style>
+        :root {
+            --chatrbox-teal: #2bb2cd;
+        }
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #fafbfc;
+            margin: 0;
+            padding: 0;
+            color: #181e22;
+        }
+        .header {
+            width: 100%;
+            background: var(--chatrbox-teal);
+            color: #fff;
+            position: relative;
+            min-height: 78px;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .header-row {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            width: 100%;
+            padding: 0 0 0 0;
+        }
+        .back-link {
+            display: flex;
+            align-items: center;
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.15rem;
+            font-weight: 600;
+            margin-top: 18px;
+            margin-left: 18px;
+            transition: color 0.17s;
+        }
+        .back-link:hover { color: #ededed; }
+        .back-link svg {
+            margin-right: 8px;
+        }
+        .header-meta-logo {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            margin: 14px 16px 0 0;
+        }
+        .meta-details {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            text-align: right;
+            font-size: 1em;
+            font-weight: 500;
+            line-height: 1.2;
+            margin-bottom: 7px;
+            color: #fff;
+            word-break: break-all;
+        }
+        .meta-details .meta-label {
+            font-weight: 600;
+            opacity: 0.93;
+        }
+        .logo {
+            height: 39px;
+            max-width: 86px;
+            object-fit: contain;
+            margin-left: 0;
+            margin-top: 0;
+            margin-right: 0;
+            flex-shrink: 0;
+            align-self: flex-end;
+        }
+        .question {
+            color: var(--chatrbox-teal);
+            font-size: 2rem;
+            font-weight: 700;
+            margin: 34px 0 1.6rem 0;
+            padding: 0 2.5rem;
+            line-height: 1.15;
+            word-break: break-word;
+            text-align: left;
+        }
+        .answer-card {
+            background: #fff;
+            border: 1.5px solid var(--chatrbox-teal);
+            border-radius: 13px;
+            margin: 0 2.5rem 2.5rem 2.5rem;
+            padding: 2rem 1.5rem 2rem 1.5rem;
+            box-shadow: 0 4px 18px 0 rgba(43,178,205,0.12);
+            font-size: 1.22rem;
+            line-height: 1.65;
+        }
+        @media (max-width: 700px) {
+            .header-row {
+                flex-direction: column;
+                align-items: stretch;
+            }
+            .header-meta-logo {
+                align-items: flex-end;
+                margin: 8px 6vw 0 0;
+            }
+            .logo { height: 27px; max-width: 58px; }
+            .back-link { margin: 10px 0 0 10px; }
+            .question {
+                padding: 0 5vw;
+                font-size: 1.17rem;
+            }
+            .answer-card {
+                margin-left: 0;
+                margin-right: 0;
+                margin-bottom: 2.2rem;
+                padding: 1.2rem 0.8rem;
+                font-size: 1.03rem;
+            }
+        }
+        @media (max-width: 420px) {
+            .meta-details {
+                margin-right: 2px;
+                font-size: 0.93em;
+            }
+            .logo {
+                height: 23px;
+                max-width: 40px;
+            }
+            .question {
+                padding: 0 2vw;
+                font-size: 1.03rem;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="header">
+    <div class="header-row">
+        <a href="https://faq.petitek.com" class="back-link" title="Back to FAQ">
+            <svg width="23" height="23" viewBox="0 0 20 20" fill="none">
+                <path d="M13.5 17L7 10.3L13.5 3.5" stroke="#fff" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            Back
+        </a>
+        <div class="header-meta-logo">
+            <div class="meta-details">
+                <span class="meta-label">Timestamp:</span>
+                <span>2025-07-20 16:24:21</span>
+                <span class="meta-label" style="margin-top:8px;">ID:</span>
+                <span>8c9969be-a28a-4d01-a8a2-a78f2f159b18</span>
+            </div>
+            <img src="/answers/petitek_logo.png" alt="Petitek Logo" class="logo">
+        </div>
+    </div>
+</div>
+
+    <div class="question">Q: How do I turn on Chatbox?</div>
+    <div class="answer-card">To turn on your ChatrBox, follow these steps:
+
+1. **Power Source**: Ensure ChatrBox is powered either by installing 4 high-quality AAA batteries or plugging in a USB-C power adapter (5V). It's recommended to use premium alkaline batteries like Duracell or Energizer for optimal performance.
+
+2. **Power On**: Press and hold the top button until you hear "Power On" and see a pulsing blue light. This indicates that the device is in Pause Mode.
+
+3. **Activate Motion Detection**: To begin motion detection, press the power button once more. You’ll hear "Unpaused" and see a white light flash faster over 10 seconds. This signals that the device is actively monitoring for movement.
+
+🐾 Hope your day is as fetching as you are! If you encounter any issues, feel free to reach out for more assistance.
+
+Your ChatrBox is in good paws. Let me help. 🐕</div>
+</body>
+</html>
