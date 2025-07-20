@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>ChatrBox Support Answer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <style>
+        :root {
+            --chatrbox-teal: #2bb2cd;
+        }
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #fafbfc;
+            margin: 0;
+            padding: 0;
+            color: #181e22;
+        }
+        .header {
+            width: 100%;
+            background: var(--chatrbox-teal);
+            color: #fff;
+            position: relative;
+            padding: 0;
+            box-sizing: border-box;
+            border-radius: 6px 6px 0 0;
+        }
+        .header-row {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            width: 100%;
+            padding: 0 0 0 0;
+        }
+        .back-arrow-btn {
+            background: none;
+            border: none;
+            cursor: pointer;
+            outline: none;
+            margin: 20px 0 0 18px;
+            padding: 0;
+            display: flex;
+            align-items: center;
+        }
+        .back-arrow-btn svg {
+            display: block;
+            width: 28px;
+            height: 28px;
+            stroke: #fff;
+        }
+        .header-logo {
+            margin: 12px 18px 0 0;
+            height: 45px;
+            display: flex;
+            align-items: flex-start;
+        }
+        .divider {
+            width: 96%;
+            height: 2px;
+            background: #fff;
+            opacity: 0.94;
+            margin: 14px auto 0 auto;
+            border: none;
+        }
+        .meta-block {
+            margin: 18px 0 13px 34px;
+            color: #fff;
+            font-size: 1.08em;
+            font-weight: 400;
+            letter-spacing: 0.01em;
+            line-height: 1.6;
+        }
+        .meta-label {
+            font-weight: 600;
+            margin-right: 6px;
+            opacity: 0.94;
+        }
+        @media (max-width: 700px) {
+            .header-row {
+                flex-direction: row;
+                align-items: flex-start;
+            }
+            .header-logo {
+                margin: 8px 9px 0 0;
+                height: 30px;
+            }
+            .meta-block {
+                margin-left: 14px;
+                font-size: 0.98em;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="header">
+    <div class="header-row">
+        <button class="back-arrow-btn" onclick="window.history.length > 1 ? window.history.back() : window.location='https://faq.petitek.com';" title="Back">
+            <svg viewBox="0 0 28 28" fill="none"><path d="M18 24L10 14L18 4" stroke="white" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <img src="/answers/petitek_logo.png" alt="Petitek Logo" class="header-logo">
+    </div>
+    <hr class="divider" />
+    <div class="meta-block">
+        <span class="meta-label">Timestamp:</span> 2025-07-20 16:29:41<br>
+        <span class="meta-label">ID:</span> 7fffb257-b657-432a-b083-00893295e83c
+    </div>
+</div>
+
+<div class="question">Q: How do I aim it?</div>
+<div class="answer-card">To aim your ChatrBox effectively, follow these steps:
+
+1. **Understand the Motion Sensor**: The ChatrBox has a cone-shaped motion sensor at the front that can detect movement up to 15 feet away.
+
+2. **Use Motion Detection Shields**: You have four shields to adjust the detection area:
+   - **Narrow View**: For precise targeting.
+   - **Threshold View**: For detecting crossing motion.
+   - **Side View**: Blocks sides, ideal for use against walls or doors.
+   - **Corner View**: Detects motion from side angles.
+
+3. **Placement**: For smaller areas, position the unit closer to the target area. Remember, the detection cone narrows with distance, so accurate placement is crucial for successful training.
+
+🐾 You're paws-itively on the right track! If you need more guidance, feel free to ask.</div>
+</body>
+</html>
