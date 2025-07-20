@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>ChatrBox Support Answer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <style>
+        :root {
+            --chatrbox-teal: #2bb2cd;
+        }
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #fafbfc;
+            margin: 0;
+            padding: 0;
+            color: #181e22;
+        }
+        .header {
+            width: 100%;
+            background: var(--chatrbox-teal);
+            color: #fff;
+            position: relative;
+            min-height: 78px;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .header-inner {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            justify-content: space-between;
+            padding: 15px 18px 8px 10px;
+        }
+        .back-link {
+            display: flex;
+            align-items: center;
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.15rem;
+            font-weight: 600;
+            margin-top: 3px;
+            margin-right: 12px;
+            transition: color 0.17s;
+        }
+        .back-link:hover { color: #ededed; }
+        .back-link svg {
+            margin-right: 8px;
+        }
+        .header-right {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+        }
+        .meta-details {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            text-align: right;
+            font-size: 1em;
+            font-weight: 500;
+            line-height: 1.25;
+            margin-right: 12px;
+            margin-top: 2px;
+            white-space: nowrap;
+        }
+        .meta-details .meta-label {
+            font-weight: 600;
+            opacity: 0.93;
+        }
+        .logo {
+            height: 42px;
+            max-width: 98px;
+            object-fit: contain;
+            margin-left: 6px;
+            margin-top: 0;
+            margin-right: 0;
+            flex-shrink: 0;
+            align-self: flex-start;
+        }
+        .question {
+            color: var(--chatrbox-teal);
+            font-size: 2rem;
+            font-weight: 700;
+            margin: 34px 0 1.6rem 0;
+            padding: 0 2.5rem;
+            line-height: 1.15;
+            word-break: break-word;
+            text-align: left;
+        }
+        .answer-card {
+            background: #fff;
+            border: 1.5px solid var(--chatrbox-teal);
+            border-radius: 13px;
+            margin: 0 2.5rem 2.5rem 2.5rem;
+            padding: 2rem 1.5rem 2rem 1.5rem;
+            box-shadow: 0 4px 18px 0 rgba(43,178,205,0.12);
+            font-size: 1.22rem;
+            line-height: 1.65;
+        }
+        @media (max-width: 750px) {
+            .header-inner {
+                padding: 9px 4vw 3px 2vw;
+            }
+            .meta-details {
+                font-size: 0.99em;
+                margin-right: 7px;
+            }
+            .logo {
+                height: 30px;
+                max-width: 64px;
+                margin-left: 2px;
+            }
+            .question {
+                padding: 0 5vw;
+                font-size: 1.17rem;
+            }
+            .answer-card {
+                margin-left: 0;
+                margin-right: 0;
+                margin-bottom: 2.2rem;
+                padding: 1.2rem 0.8rem;
+                font-size: 1.03rem;
+            }
+        }
+        @media (max-width: 420px) {
+            .header-inner {
+                flex-direction: column;
+                align-items: stretch;
+                padding: 6px 1vw 1px 1vw;
+            }
+            .header-right {
+                flex-direction: row;
+                align-items: flex-start;
+                margin-top: 4px;
+                margin-bottom: 2px;
+            }
+            .meta-details {
+                margin-right: 2px;
+                font-size: 0.93em;
+            }
+            .logo {
+                height: 23px;
+                max-width: 40px;
+            }
+            .question {
+                padding: 0 2vw;
+                font-size: 1.03rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="header-inner">
+            <a href="https://faq.petitek.com" class="back-link" title="Back to FAQ">
+                <svg width="23" height="23" viewBox="0 0 20 20" fill="none">
+                    <path d="M13.5 17L7 10.3L13.5 3.5" stroke="#fff" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                Back
+            </a>
+            <div class="header-right">
+                <div class="meta-details">
+                    <span class="meta-label">Timestamp:</span>
+                    <span>2025-07-20 16:01:50</span>
+                    <span class="meta-label" style="margin-top:8px;">ID:</span>
+                    <span>7fd1027c-a9e6-4dcf-be67-1f359019fdfb</span>
+                </div>
+                <img src="/answers/petitek_logo.png" alt="Petitek Logo" class="logo">
+            </div>
+        </div>
+    </div>
+    <div class="question">Q: Does Petitek have a website?</div>
+    <div class="answer-card">I don’t have specific information about a website for Petitek. For any questions or further assistance, you can contact them directly at <a href="mailto:support@petitek.com">support@petitek.com</a>.
+
+🐾 You're paws-itively amazing!</div>
+</body>
+</html>
