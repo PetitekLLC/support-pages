@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>ChatrBox Support Answer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <style>
+        :root {
+            --chatrbox-teal: #2bb2cd;
+        }
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #fafbfc;
+            margin: 0;
+            padding: 0;
+            color: #181e22;
+        }
+        .header {
+            width: 100%;
+            background: var(--chatrbox-teal);
+            color: #fff;
+            position: relative;
+            min-height: 88px;
+            box-sizing: border-box;
+            border-radius: 7px 7px 0 0;
+            padding-bottom: 10px;
+        }
+        .header-back {
+            position: absolute;
+            top: 18px;
+            left: 16px;
+            z-index: 2;
+        }
+        .back-arrow-btn {
+            background: none;
+            border: none;
+            cursor: pointer;
+            outline: none;
+            padding: 0;
+            display: flex;
+            align-items: center;
+        }
+        .back-arrow-btn svg {
+            width: 32px;
+            height: 32px;
+            stroke: #fff;
+            display: block;
+        }
+        .header-logo {
+            position: absolute;
+            bottom: 12px;
+            right: 20px;
+            height: 39px;
+            width: auto;
+        }
+        .meta-block {
+            position: absolute;
+            bottom: 10px;
+            left: 28px;
+            color: #fff;
+            font-size: 1.08em;
+            font-weight: 300;
+            letter-spacing: 0.01em;
+            line-height: 1.6;
+            text-align: left;
+        }
+        .meta-label {
+            font-weight: 600;
+            margin-right: 7px;
+            opacity: 0.95;
+        }
+        @media (max-width: 700px) {
+            .header {
+                min-height: 82px;
+            }
+            .header-logo {
+                height: 28px;
+                right: 11px;
+                bottom: 7px;
+            }
+            .meta-block {
+                font-size: 0.93em;
+                left: 17px;
+                bottom: 7px;
+            }
+            .header-back {
+                top: 11px;
+                left: 8px;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="header">
+    <div class="header-back">
+        <button class="back-arrow-btn" onclick="window.history.length > 1 ? window.history.back() : window.location='https://faq.petitek.com';" title="Back">
+            <svg viewBox="0 0 28 28" fill="none"><path d="M18 24L10 14L18 4" stroke="white" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+    </div>
+    <div class="meta-block">
+        <span class="meta-label">Timestamp:</span> 2025-07-20 16:34:42<br>
+        <span class="meta-label">ID:</span> 9f97ac7a-4df9-40ca-b8be-74e6e03c6061
+    </div>
+    <img src="/answers/petitek_logo.png" alt="Petitek Logo" class="header-logo">
+</div>
+
+<div class="question">Q: Does Petitek have a website?</div>
+<div class="answer-card">Yes, Petitek does have a website. You can visit it at [petitek.com](https://www.petitek.com). If you need any specific information or assistance, feel free to ask! 🐾 Tail wags and good vibes!
+
+Your ChatrBox is in good paws. Let me help. 🐕</div>
+</body>
+</html>
